@@ -3,22 +3,33 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Icecream</title>
-		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/responsive.css">
 	</head>
 	<body>
 		<main>
 			<header id="header">
-				<nav class="menu">
-					<a href="index.html"><li>Home</li></a>
-					<a href="products.html"><li>Products</li></a>
-					<a href="#"><li>Services</li></a>
+				<nav class="menu menu-desk">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="products.html">Products</a></li>
+					<li><a href="#">Services</a></li>
 				</nav>
 				<section id="logo"><img src="images/logo.png"></section>
-				<nav class="menu">
-					<a href="#"><li>Order</li></a>
-					<a href="#"><li>About Us</li></a>
-					<a href="#"><li>Contact Us</li></a>
+				<nav class="menu menu-desk">
+					<li><a href="#">Order</a></li>
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">Contact Us</a></li>
+				</nav>
+				<i class="fa fa-bars menu-icon" aria-hidden="true"></i>
+				<nav class="menu mob-menu">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="products.html">Products</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Order</a></li>
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">Contact Us</a>
 				</nav>
 			</header>
 
@@ -37,12 +48,12 @@
 
 			<footer>
 				<nav id="footer_menu">
-					<a href="index.html"><li>Home</li></a>
-					<a href="products.html"><li>Products</li></a>
-					<a href="#"><li>Services</li></a>
-					<a href="#"><li>Order</li></a>
-					<a href="#"><li>About Us</li></a>
-					<a href="#"><li>Contact Us</li></a>
+					<li><a href="index.html">Home</li></a>
+					<li><a href="products.html">Products</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Order</a></li>
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">Contact Us</a></li>
 
 				</nav>
 
@@ -57,5 +68,7 @@
 
 			</footer>
 		</main>
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
 	</body>
 </html>
